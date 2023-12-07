@@ -1,0 +1,59 @@
+
+     Program Q2R v.6.7MaX starts on 28Nov2023 at  1: 7: 0 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     1 processors
+
+     MPI processes distributed on     1 nodes
+
+     reading grid info from file tinisn.dyn0    
+  reading force constants from file tinisn.dyn1
+ macroscopic fields = T
+  24.12400   0.00000  -0.00000
+  -0.00000  24.12400  -0.00000
+   0.00000   0.00000  24.12400
+  na=            1
+   2.80543   0.00000   0.00000
+   0.00000   2.80543   0.00000
+   0.00000   0.00000   2.80543
+  na=            2
+  -2.84215   0.00000   0.00000
+   0.00000  -2.84215   0.00000
+   0.00000  -0.00000  -2.84215
+  na=            3
+   1.13734  -0.00000  -0.00000
+  -0.00000   1.13734  -0.00000
+   0.00000   0.00000   1.13734
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file tinisn.dyn2
+  nqs=            4
+ q=   0.50000000 -0.50000000  0.50000000
+ q=  -0.50000000 -0.50000000 -0.50000000
+ q=  -0.50000000  0.50000000  0.50000000
+ q=   0.50000000  0.50000000 -0.50000000
+  reading force constants from file tinisn.dyn3
+  nqs=            3
+ q=   0.00000000 -1.00000000  0.00000000
+ q=   0.00000000  0.00000000 -1.00000000
+ q=   1.00000000  0.00000000  0.00000000
+
+      q-space grid ok, #points =    8
+
+      fft-check success (sum of imaginary terms < 10^-12)
+
+     Q2R          :      0.00s CPU      0.01s WALL
+
+
+   This run was terminated on:   1: 7: 0  28Nov2023            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

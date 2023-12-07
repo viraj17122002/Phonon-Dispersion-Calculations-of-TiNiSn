@@ -1,0 +1,4 @@
+ &input
+   fildyn='tinisn.dyn', zasr='simple', flfrc='tinisn222.fc'
+ /
+

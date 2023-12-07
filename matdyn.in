@@ -1,0 +1,11 @@
+ &input
+    asr='simple',  amass(1)=47.867 , amass(2)=58.69354  , amass(3)=118.71 
+    flfrc='tinisn222.fc', flfrq='tinisn.freq', q_in_band_form=.true.,
+ /
+ 5
+  gG    51
+  X     51
+  W     51
+  L     51
+  gG    51
+

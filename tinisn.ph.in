@@ -1,0 +1,14 @@
+phonons of tisisn
+ &inputph
+  tr2_ph=1.0d-12,
+  prefix='tinisn',
+  ldisp=.true.,
+  nq1=2, nq2=2, nq3=2
+  amass(1)= 47.867
+  amass(2)= 58.69354
+  amass(3)= 118.71
+  outdir='/home/user11/Downloads/lab-test/tmp' 
+  fildyn='tinisn.dyn',
+  recover=.true.
+ /
+

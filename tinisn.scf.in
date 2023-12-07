@@ -1,0 +1,27 @@
+ &control
+    calculation='scf'
+    prefix='tinisn',
+    pseudo_dir = '/home/user11/Downloads/lab-test/pseudo'
+    outdir='/home/user11/Downloads/lab-test/tmp'
+
+ /
+ &system    
+    ibrav=  2, celldm(1) =11.227 , nat=  3, ntyp= 3,
+    ecutwfc =30.0
+
+ /
+ &electrons
+ /
+
+ATOMIC_SPECIES
+ Ti  47.867  ti_pbe_v1.4.uspp.F.UPF
+ Ni  58.69354  ni_pbe_v1.4.uspp.F.UPF
+ Sn  118.71  Sn_pbe_v1.uspp.F.UPF
+
+ATOMIC_POSITIONS
+ Ti 0.50 0.50 0.50
+ Ni 0.25 0.25 0.25
+ Sn 0.00 0.00 0.00 
+ 
+K_POINTS automatic
+ 12 12 12 0 0 0 
